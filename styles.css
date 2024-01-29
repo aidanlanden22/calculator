@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+.display {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    width: 120px;
+    height: 20px;
+}
+
+.math {
+    display: flex;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    width: 90px;
+}
+.digit {
+    width: 30px;
+    flex: 1;
+
+}
+.operators {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+}
+.functions {
+    display: flex;
+}
+.equals { 
+    flex: 1;
+}
